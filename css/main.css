@@ -75,10 +75,24 @@ h3 {
     width: 1110px;
     height: 100vh;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
+}
+
+.d-flex {
+    display: flex; 
+}
+
+.flex-sb {
     justify-content: space-between;
 }
+
+.flex-column {
+    flex-direction: column;
+}
+
+.align-center {
+    align-items: center;
+}
+
 
 /* Header */
 
@@ -131,4 +145,34 @@ h3 {
     text-decoration: none;
     text-transform: uppercase;
     color: var(--white);
+}
+
+/* Section */
+
+.text-center {
+    text-align: center;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.video {
+    filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+
+.main__section {
+    position: relative;
+    z-index: 0;
+}
+
+.main__section_after::after {
+    width: 100%;
+    height: 100px;
+    background-color: var(--main-dark);
+    position: absolute;
+    bottom: -100px;
+    left: 0px;
+    z-index: -2;
+    content: "";
 }
