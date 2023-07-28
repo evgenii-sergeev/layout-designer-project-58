@@ -268,6 +268,10 @@ h3 {
     column-width: 50px;
 }
 
+.article p:first-of-type {
+    break-after: column;
+}
+
 .article__label {
     font-size: 24px;
     color: var(--dark-transparent);
@@ -298,8 +302,4 @@ h3 {
 .article__image {
     vertical-align: middle;
     box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.15);
-}
-
-figure {
-    break-inside: avoid;
 }
