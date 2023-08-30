@@ -276,3 +276,75 @@ header {
     margin-bottom: 20px;
     padding: 5px 10px;
 }
+
+.footer {
+    height: auto;
+}
+
+.feedback-section {
+    width: 100%;
+    padding: 55px;
+}
+
+.request {
+    align-self: center;
+    font-family: Neucha, sans-serif;
+    font-size: 34px;
+    line-height: 1.2em;
+}
+
+.subscription {
+    font-size: 18px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+}
+
+.input-field {
+    height: 50px;
+    width: 423px;
+    padding: 15px;
+    outline: none;
+    border: none;
+}
+
+.agreement {
+    font-size: 12px;
+    line-height: 20px;
+    color: inherit;
+}
+
+.agreement a {
+    color: inherit;
+}
+
+.button {
+    height: 50px;
+    width: 70px;
+    border: none;
+    padding: 0;
+    background-color: var(--main);
+    text-decoration: none;
+}
+
+.button::before {
+
+    color: var(--white);
+
+    content: url("../assets/images/send.svg");
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 60px;
+}
