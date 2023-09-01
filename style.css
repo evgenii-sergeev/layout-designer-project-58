@@ -1,0 +1,52 @@
+/* Colors */
+
+:root {
+    --white: #fff;                                                          
+    --white-transparent: #d7ccc0;  
+    --light: #f5f4f0;   
+    --main: #fe8a02;  
+    --main-dark: #42413c;   
+    --dark: #2a2626;    
+    --dark-transparent: #908d8b; 
+    --brown: #b09a81;    
+    --blue: #1085c5; 
+}
+
+/* fonts */
+
+@font-face {
+    font-family: "Open Sans";
+    font-weight: normal;
+    src: url("./assets/fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-weight: bold;
+    src: url("./assets/fonts/OpenSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: Neucha;
+    font-weight: normal;
+    src: url("./assets/fonts/Neucha-Regular.ttf");
+}
+
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General */
+
+body {
+    font-family: "Open Sans", sans-serif;
+    /* font: 16px/1.2em, "Open Sans", sans-serif; */
+    font-family: system-ui, sans-serif;
+
+}
+
+/* Background */
