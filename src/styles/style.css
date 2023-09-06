@@ -254,6 +254,10 @@ header {
   flex-direction: row-reverse;
 }
 
+.content-image {
+  box-shadow: 0 16px 32px 0 rgba(0 0 0 / 15%);
+}
+
 .description-tag {
   font-family: Neucha, sans-serif;
   font-size: 24px;
