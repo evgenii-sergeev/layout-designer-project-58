@@ -95,7 +95,7 @@ h3 {
   background: url("../assets/images/background.png") no-repeat;
   background-size: cover;
   position: absolute;
-  inset: 0 0 0 0;
+  inset: 0;
   opacity: 0.1;
 
   content: "";
@@ -333,7 +333,6 @@ h3 {
   border: none;
   font: inherit;
   color: inherit;
-  background-color: transparent;
   cursor: pointer;
   background-color: var(--main);
 }
