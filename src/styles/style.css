@@ -119,6 +119,10 @@ h3 {
 
 /* Header */
 
+header {
+  overflow: hidden;
+}
+
 .header-section {
   display: flex;
   flex-direction: column;
