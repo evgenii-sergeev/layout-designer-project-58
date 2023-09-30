@@ -124,11 +124,6 @@ header {
   overflow: hidden;
 }
 
-.header-section {
-  display: flex;
-  flex-direction: column;
-}
-
 .header-title {
   margin-bottom: 180px;
 }
