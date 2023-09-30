@@ -122,10 +122,14 @@ h3 {
 
 header {
   overflow: hidden;
+  height: 100vh;
 }
 
-.header-title {
-  margin-bottom: 180px;
+.header-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
 
 .header-image {
