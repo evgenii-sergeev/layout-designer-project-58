@@ -146,6 +146,10 @@ header {
   column-gap: 30px;
 }
 
+.section-text p {
+  line-height: 1.6;
+}
+
 .section-text p:first-of-type {
   break-after: column;
 }
