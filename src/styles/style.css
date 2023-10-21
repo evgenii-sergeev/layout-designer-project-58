@@ -35,15 +35,10 @@
 
 /* Reset */
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 /* General */
 
 body {
+  margin: 0;
   font: 16px/1.6em "Open Sans", sans-serif;
   color: var(--dark);
 }
@@ -130,7 +125,7 @@ header {
 }
 
 .header-title {
-  margin-bottom: 200px;
+  margin-bottom: 185px;
 }
 
 .header-image {
