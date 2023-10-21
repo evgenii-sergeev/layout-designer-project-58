@@ -154,14 +154,11 @@ header {
   break-after: column;
 }
 
-.section-text p:last-of-type {
-  margin-bottom: 40px;
-}
-
 /* Link */
 
 .link {
   text-align: right;
+  margin-top: 40px;
   display: inline-block;
   padding: 12px 24px;
   text-decoration: none;
