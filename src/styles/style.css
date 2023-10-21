@@ -126,10 +126,11 @@ header {
 }
 
 .header-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   height: 100%;
+}
+
+.header-title {
+  margin-bottom: 185px;
 }
 
 .header-image {
@@ -146,9 +147,9 @@ header {
   column-gap: 30px;
 }
 
-/* .section-text p {
+.section-text p {
   line-height: 1.6;
-} */
+}
 
 .section-text p:first-of-type {
   break-after: column;
